@@ -21,6 +21,9 @@ body {
   border-radius: 5px;
   text-align: center;
   padding: 50px 35px 10px 35px;
+  -webkit-box-shadow: 0px 3px 8px 1px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    0px 3px 8px 1px rgba(50, 50, 50, 0.55);
+box-shadow:         0px 3px 8px 1px rgba(50, 50, 50, 0.55);
 }
 .container header{
   font-size: 35px;
