@@ -66,3 +66,20 @@ prevBtnFourth.addEventListener("click", function(){
   progressCheck[current - 2].classList.remove("active");
   current -= 1;
 });
+
+// SHOW HIDE PASSWORD ======================= //
+function showHidePassword() {
+  let x = document.getElementById('toggle-pwd-view');
+  let s = document.getElementById('show-pwd-btn');
+  let h = document.getElementById('hide-pwd-btn');
+  if (x.type === "password") {
+    x.type = "text";
+    //s.style.display = "none";
+    s.classList.add('not-active');
+    h.classList.remove('not-active');
+  } else {
+    x.type = "password";
+    s.classList.remove('not-active');
+    h.classList.add('not-active');
+  }
+}

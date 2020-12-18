@@ -65,7 +65,8 @@ box-shadow: 0px 3px 8px 1px rgba(50, 50, 50, 0.55);
   border: 1px solid lightgrey;
   border-radius: 5px;
   font-size: 18px;
-  padding-left: 15px;
+  text-indent: 15px;
+  padding-right: 30px;
 }
 form .page .field select{
   width: 100%;
@@ -102,6 +103,29 @@ form .page .btns button.prev{
 form .page .btns button.next{
   margin-left: 3px;
   font-size: 17px;
+}
+.form-outer form .page .field #show-pwd-btn{
+  position: absolute;
+  top: 31px;
+  right: 5px;
+  color: #333;
+  cursor: pointer;
+  background: none;
+  width: min-content;
+  height: min-content;
+}
+.form-outer form .page .field #hide-pwd-btn{
+  position: absolute;
+  top: 31px;
+  right: 5px;
+  color: #333;
+  cursor: pointer;
+  background: none;
+  width: min-content;
+  height: min-content;
+}
+.form-outer form .page .field .not-active{
+  display: none;
 }
 /* STYLING PROGRESS BAR */
 .container .progress-bar{
