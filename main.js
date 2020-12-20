@@ -67,7 +67,7 @@ prevBtnFourth.addEventListener("click", function(){
   current -= 1;
 });
 
-// SHOW HIDE PASSWORD ======================= //
+// SHOW HIDE / PASSWORD ======================= //
 function showHidePassword() {
   let x = document.getElementById('toggle-pwd-view');
   let s = document.getElementById('show-pwd-btn');
